@@ -1,0 +1,28 @@
+<view>
+  <view a:if="{{ !loading && !orderList.length }}" class="order-tip">暂无订单</view>
+  <view a:for="{{ orderList }}" a:for-item="order" key="{{ order.tradeNo }}" class="order">
+    <view class="top">
+      <text>订单编号：{{ order.outTradeNo }}</text>
+      <text class="order-status" a:if="{{ order.status === 'TRADE_SUCCESS' }}">订单完成</text>
+      <text class="order-status" a:elif="{{ order.status === 'TRADE_CLOSED' }}">已退款</text>      
+      <text class="order-status" a:elif="{{ order.status === 'WAIT_BUYER_PAY' }}">未支付</text>
+    </view>
+    <view class="body">
+      <view a:for="{{ order.goodsList }}" key="{{ item.goods_id }}">
+        <image src="https://gw.alicdn.com/tfs/TB1ftjPXvWG3KVjSZFgXXbTspXa-200-200.png" class="food-image" />
+        <view>
+          <view class="food-name">
+            <text number-of-lines="1">{{ item.goods_name }}</text>
+          </view>
+          <view class="food-price">
+            <text>{{ item.price * item.quantity }} 元</text>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="bottom">
+      <text class="coupon-detail" a:if="{{ order.cardId }}">优惠券抵扣：0.01元</text>
+      <button a:if="{{ order.status === 'TRADE_SUCCESS' }}" type="default" class="refund-btn" onTap="refundHandler" data-order="{{ order }}">退款</button>
+    </view>
+  </view>
+</view>

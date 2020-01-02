@@ -1,0 +1,18 @@
+<view>
+  <button size="default" type="default" onTap="getCardHandler" class="btn">领取优惠券</button>
+  <view class="coupon" a:for="{{ cardList }}" key="{{ index.serialNumber }}">
+    <view class="coupon-logo">
+      <image class="coupon-logo-image" mode="scaleToFill" src="./assets/logo.png" />
+      <text class="coupon-logo-text">1分</text>
+    </view>
+    <view>
+      <view class="coupon-title">
+        <text number-of-lines="1">优惠券</text>
+      </view>
+      <view class="coupon-date">
+        <text>2029年12月31日到期</text>
+      </view>
+    </view>
+    <view class="coupon-btn" onTap="useHandler">去使用</view>
+  </view>
+</view>

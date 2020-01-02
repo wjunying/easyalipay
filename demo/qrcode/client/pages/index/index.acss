@@ -1,0 +1,42 @@
+.title {
+  margin-top: 77rpx;
+  line-height: 45rpx;
+  font-size: 32rpx;
+  color: #333333;
+  border-bottom: 3rpx solid #a1a1a1;
+  padding: 0rpx 0rpx 10rpx 0;
+}
+
+.container {
+  margin-top: 70rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.qrcode {
+  width: 273rpx;
+  height: 340rpx;
+  background: #a1a1a1;
+}
+.nickname {
+  margin-top: 30rpx;
+  line-height: 42rpx;
+  font-size: 30rpx;
+  color: #4a4a4a;
+}
+.action{
+  margin-top: 72rpx;
+  display: flex;
+  width: 560rpx;
+}
+.save-btn{
+  flex:1;
+}
+
+.desc{
+  margin: 165rpx 32rpx;
+  padding: 42rpx 0rpx;
+  border-top: 3rpx solid #eeeeee;
+  font-size: 28rpx;
+color: #999999;
+}

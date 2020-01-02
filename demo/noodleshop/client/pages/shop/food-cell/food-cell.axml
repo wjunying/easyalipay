@@ -1,0 +1,22 @@
+<view class="root">
+  <image class="food-img" src="https://gw.alicdn.com/tfs/TB1ftjPXvWG3KVjSZFgXXbTspXa-200-200.png" />
+  <view class="food-body">
+    <view class="food-name">
+      <text number-of-lines="1">{{ goodsInfo.goodsName }}</text>
+    </view>
+    <view class="food-more">
+      <text>{{ goodsInfo.goodsNum }}/{{ goodsInfo.goodsDescribe }}</text>
+    </view>
+    <view class="food-more">
+      <text>月售{{ goodsInfo.sellNum }}</text>
+    </view>
+    <view class="food-price">
+      <text>¥{{ goodsInfo.goodsPrice }}</text>
+    </view>
+  </view>
+  <view class="food-btn">
+    <view class="food-reduce" onTap="reduceHandler" a:if="{{ quantity > 0 }}"></view>
+    <text class="food-quantity" a:if="{{ quantity > 0 }}">{{ quantity }}</text>
+    <view class="food-add" onTap="selectHandler"></view>
+  </view>
+</view>

@@ -1,0 +1,73 @@
+page {
+  padding-top: 20rpx;
+}
+
+.coupon {
+  position: relative;
+  width: 686rpx;
+  height: 163rpx;
+  border-radius: 8rpx;
+  background-color: #fff;
+  margin: 0 auto 12rpx;
+  padding-left: 160rpx;
+  padding-top: 45rpx;
+  box-sizing: border-box;
+}
+
+.coupon-btn {
+  position: absolute;
+  top: 50rpx;
+  right: 35rpx;
+  width: 123rpx;
+  height: 52rpx;
+  line-height: 52rpx;
+  background-color: #ffcc6e;
+  border-radius: 2rpx;
+  text-align: center;
+  font-size: 24rpx;
+  color: #6d0505;
+}
+
+.coupon-logo {
+  position: absolute;
+  top: 28rpx;
+  left: 33rpx;
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.coupon-logo-image {
+  width: 100%;
+  height: 100%;
+}
+
+.coupon-logo-text {
+  position: absolute;
+  color: #f6443a;
+  font-size: 20rpx;
+  font-weight: 500;
+  top: 44rpx;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.coupon-title {
+  font-size: 30rpx;
+  font-weight: bold;
+  margin-bottom: 22rpx;
+  max-width: 300rpx;
+}
+
+.coupon-date {
+  color: #9d7e5b;
+  font-size: 24rpx;
+}
+
+.btn {
+  width: 560rpx;
+  color: #108ee9;
+  border: 2rpx solid #108ee9;
+  margin: 20rpx auto;
+  background-color: transparent;
+}

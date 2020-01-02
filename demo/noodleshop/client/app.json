@@ -1,0 +1,11 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/shop/shop",
+    "pages/coupons/coupons",
+    "pages/orders/orders"
+  ],
+  "window": {
+    "defaultTitle": "面馆小程序"
+  }
+}

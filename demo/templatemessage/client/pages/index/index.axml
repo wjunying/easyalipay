@@ -1,0 +1,11 @@
+<form report-submit="{{true}}" onSubmit="handleSendMessage">
+  <button class="action" type="ghost" form-type="submit">立刻推送一条消息</button>
+  <button class="action" type="ghost" form-type="submit" data-delay="{{true}}">2分钟后推送一条消息</button>
+</form>
+<view class="content">
+  <text>
+    该功能适用于开发者高效触达用户的模板消息能力，比如：交易状态、物流进度等；
+
+    用户在小程序内产生页面交互行为后，开发者可通过此能力给用户发送消息，同时开发者可在消息中配置小程序地址或指定页面地址，用户收到消息后可通过消息点击进入到小程序，目前仅支持文本消息；
+  </text>
+</view>

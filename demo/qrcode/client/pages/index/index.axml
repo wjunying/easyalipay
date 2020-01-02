@@ -1,0 +1,13 @@
+<view class="title">
+  <text>小程序二维码示例</text>
+</view>
+<view class="container">
+  <image class="qrcode" src="{{qrCode}}"/>
+  <text class="nickname">{{nickname}}</text>
+</view>
+<view class="action">
+<button class="save-btn" type="ghost" onTap="onSaveQRCodeHandler">保存到相册</button>
+</view>
+<view class="desc">
+  <text>为了方便开发者更便捷地推广小程序，提供生成【小程序二维码】的能力，开发者可以将生成后【小程序二维码】在线下进行贴码推广。</text>
+</view>

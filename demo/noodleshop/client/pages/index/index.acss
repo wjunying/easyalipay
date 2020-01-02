@@ -1,0 +1,24 @@
+page {
+  background-color: #fff;
+}
+
+.root {
+  padding-top: 70rpx;
+}
+
+.title {
+  font-size: 32rpx;
+  height: 60rpx;
+  width: 66rpx;
+  margin: 0 auto 74rpx;
+  color: rgb(51, 51, 51, 0.49);
+  text-align: center;
+  border-bottom: 1rpx solid #a1a1a1;
+}
+
+.btn {
+  width: 560rpx;
+  color: #108ee9;
+  border: 2rpx solid #108ee9;
+  margin: 0 auto 74rpx;
+}

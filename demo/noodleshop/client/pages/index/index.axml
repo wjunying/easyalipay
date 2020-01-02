@@ -1,0 +1,6 @@
+<view class="root">
+  <view class="title">view</view>
+  <button size="default" type="default" onTap="enterShopPage" class="btn">开始点餐</button>
+  <button size="default" type="default" onTap="enterCouponsPage" class="btn">我的优惠券</button>
+  <button size="default" type="default" onTap="enterOrderPage" class="btn">我的订单</button>
+</view>

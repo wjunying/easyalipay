@@ -1,0 +1,8 @@
+{
+  "defaultTitle": "点餐",
+  "usingComponents": {
+    "vtabs": "mini-antui/es/vtabs/index",
+    "vtab-content": "mini-antui/es/vtabs/vtab-content/index",
+    "food-cell": "./food-cell/food-cell"
+  }
+}

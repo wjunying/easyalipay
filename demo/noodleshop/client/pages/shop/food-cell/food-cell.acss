@@ -1,0 +1,84 @@
+.root {
+  padding: 32rpx;
+  position: relative;
+}
+
+.food-img {
+  position: absolute;
+  top: 36rpx;
+  left: 32rpx;
+  width: 132rpx;
+  height: 132rpx;
+  border-radius: 4rpx;
+  background-color: #f1f8ff;
+}
+
+.food-name {
+  font-size: 30rpx;
+  color: #333;
+  font-weight: 500;
+  margin-bottom: 4rpx;
+  line-height: 1.4;
+}
+
+.food-price {
+  color: #ff3b30;
+  font-weight: 500;
+  font-size: 40rpx;
+  margin-top: 8rpx;
+}
+
+.food-more {
+  font-size: 26rpx;
+  color: #999;
+  margin-bottom: 8rpx;
+  line-height: 1.4;
+}
+
+.food-body {
+  padding-left: 156rpx;
+}
+
+.food-btn {
+  position: absolute;
+  bottom: 36rpx;
+  right: 32rpx;
+  display: flex;
+  align-items: center;
+}
+
+.food-add,
+.food-reduce {
+  position: relative;
+  width: 44rpx;
+  height: 44rpx;
+  border-radius: 50%;
+  background-color: #108ee9;
+}
+
+.food-add::before {
+  content: '';
+  display: block;
+  width: 4rpx;
+  height: 24rpx;
+  background-color: #fff;
+  position: absolute;
+  left: 20rpx;
+  top: 10rpx;
+}
+
+.food-add::after,
+.food-reduce::after {
+  content: '';
+  display: block;
+  height: 4rpx;
+  width: 24rpx;
+  background-color: #fff;
+  position: absolute;
+  left: 10rpx;
+  top: 20rpx;
+}
+
+.food-quantity {
+  margin: 0 4px;
+}

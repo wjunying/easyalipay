@@ -1,0 +1,84 @@
+page {
+  padding-top: 20rpx;
+}
+
+.order {
+  color: #333;
+  margin-bottom: 20rpx;
+  background-color: #fff;
+  padding: 0 32rpx;
+}
+
+.order-tip {
+  color: #999;
+  text-align: center;
+  padding-top: 120rpx;
+}
+
+.top {
+  padding-top: 28rpx;
+  box-sizing: border-box;
+  height: 95rpx;
+  font-size: 28rpx;
+  border-bottom: 1rpx solid #ddd;
+}
+
+.order-status {
+  float: right;
+  color: #f5a623;
+}
+
+.body {
+  padding: 30rpx 0 40rpx 193rpx;
+  position: relative;
+  border-bottom: 1rpx solid #ddd;
+  height: 231rpx;
+  box-sizing: border-box;
+}
+
+.food-image {
+  width: 160rpx;
+  height: 160rpx;
+  position: absolute;
+  left: 0;
+  top: 30rpx;
+}
+
+.bottom {
+  height: 86rpx;
+  position: relative;
+}
+
+.refund-btn {
+  position: absolute;
+  top: 12rpx;
+  right: 0;
+  background: #f7fcff;
+  border: 1rpx solid #108ee9;
+  border-radius: 4rpx;
+  height: 52rpx;
+  line-height: 52rpx;
+  width: 160rpx;
+  font-size: 28rpx;
+  color: #108ee9;
+}
+
+.food-name {
+  font-weight: 500;
+  font-size: 34rpx;
+  margin-bottom: 22rpx;
+}
+
+.food-price {
+  color: #f4333c;
+  font-size: 36rpx;
+}
+
+.coupon-detail {
+  font-size: 24rpx;
+  color: #999;
+  margin-bottom: 22rpx;
+  position: absolute;
+  top: 24rpx;
+  left: 0;
+}

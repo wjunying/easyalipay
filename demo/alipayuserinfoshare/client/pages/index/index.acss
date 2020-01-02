@@ -1,0 +1,53 @@
+page {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  padding: 32rpx;
+  align-items: center;
+}
+.title {
+  margin-top: 74rpx;
+  font-size: 32rpx;
+  color: #333333;
+  opacity: 0.49;
+  padding: 1rpx;
+  line-height: 45rpx;
+  border-bottom: 3rpx solid #a1a1a1;
+}
+.avatar {
+  background: #d8d8d8;
+  width: 168rpx;
+  height: 168rpx;
+  border-radius: 50%;
+  margin-top: 48rpx;
+}
+
+.nickname {
+  line-height: 42rpx;
+  font-size: 30rpx;
+  color: #4a4a4a;
+  margin-top: 34rpx;
+}
+.login-status-area {
+  line-height: 36rpx;
+  font-size: 25rpx;
+  color: #8f8f8f;
+  margin-top: 20rpx;
+  margin-bottom: 30rpx;
+}
+.btn-action {
+  width: 560rpx;
+  margin-bottom: 12rpx;
+}
+.desc {
+  margin-top: 180rpx;
+  border-top: 3rpx solid #eeeeee;
+  line-height: 40rpx;
+  font-size: 28rpx;
+  color: #999999;
+}
+.desc .desc-item{
+  display: flex;
+  margin: 42rpx 0;
+}

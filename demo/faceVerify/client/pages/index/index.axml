@@ -1,0 +1,23 @@
+
+<view class="container">
+  <text class="title">Face Identification</text>
+  <view class="line"></view>
+  <view a:if="{{status === 0}}" class='verify'>
+    <image class="head" mode="scaleToFill" src="../../head.png"/>
+    <text class="verify-text">刷脸验证</text>
+  </view>
+  <view a:elif="{{status === 1}}" class='result'>
+    <image class="check" mode="scaleToFill" src="../../check.png"/>
+    <text class="result-text">识别成功</text>
+    <text class="result-tip">清除数据后可重新识别</text>
+  </view>
+  <button
+    class="btn-action"
+    size="default"
+    type="ghost"
+    onTap="verifyAction"
+  >{{ status === 0 ? '开始识别' : '清除数据' }}</button>
+  <view class="desc">
+    <text class="desc-item">刷脸认证是一种身份验证服务，通过采集用户的面部特征，并与权威数据源比对，判断当前登录用户是否为账户的本人和真人。</text>
+  </view>
+</view>

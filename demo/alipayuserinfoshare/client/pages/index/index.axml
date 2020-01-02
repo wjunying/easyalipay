@@ -1,0 +1,17 @@
+<text class="title">小程序会员信息</text>
+<image class="avatar" src="{{avatar}}"/>
+<text class="nickname">{{nickname}}</text>
+<view class="login-status-area">
+  <text>登录状态：</text>
+  <text>{{isLogin ? "已登录" : "未登录"}}</text>
+</view>
+<button class="btn-action" disabled="{{isAvatarLoading}}" loading="{{isAvatarLoading}}"  type="ghost" onTap="onJSAPIHandler">{{isAvatar ? "清除头像" : "调用JSAPI获取头像"}}</button>
+<button class="btn-action" disabled="{{isLoginLoading}}" loading="{{isLoginLoading}}"  type="ghost" onTap="onOpenAPIHandler">{{isLogin ? "退出登录" : "调用OPENAPI获取登录"}}</button>
+<view class="desc">
+  <text class="desc-item"
+    >会员信息有JSAPI和OPENAPI两种调用方式，两种调用都可以取得用户的昵称和头像。
+  </text>
+  <text class="desc-item"
+    >区别在于OPENAPI调用可以得到用户的userId，userId可以用作开发者的登录信息，通过支付宝实现小程序登录操作。
+  </text>
+</view>

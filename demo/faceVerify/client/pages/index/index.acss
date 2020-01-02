@@ -1,0 +1,88 @@
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 1600rpx;
+  background-color: #fff;
+}
+
+
+.title {
+  color: #333;
+  font-size: 32rpx;
+  opacity: .5;
+  margin-top: 73rpx;
+}
+
+.line {
+  width: 64rpx;
+  height: 1rpx;
+  margin: 14rpx auto;
+  border-bottom: 1rpx solid #A1A1A1;
+}
+
+image {
+  display: block;
+}
+
+.verify {
+  margin-top: 105rpx;
+}
+
+.head {
+  width: 205rpx;
+  height: 205rpx;
+  margin: 0 auto;
+}
+.verify-text {
+  display: block;
+  color: #4a4a4a;
+  font-size: 30rpx;
+  margin: 28rpx auto;
+  text-align: center;
+}
+
+
+.result {
+  margin-top: 106rpx;
+}
+.result text {
+  display: block;
+  text-align: center;
+}
+.check {
+  width: 130rpx;
+  height: 130rpx;
+  margin: 0 auto;
+}
+.result-text {
+  color: #333;
+  font-size: 36rpx;
+  margin: 37rpx auto;
+}
+.result-tip {
+  color: #888;
+  font-size: 28rpx;
+  margin: 13rpx auto;
+}
+
+
+
+.btn-action {
+  width: 560rpx;
+  margin: 85rpx 0 0;
+}
+
+.desc {
+  margin-top: 130rpx;
+  border-top: 1rpx solid #eeeeee;
+  line-height: 40rpx;
+  font-size: 28rpx;
+  width: 650rpx;
+  color: #999999;
+}
+.desc .desc-item{
+  display: flex;
+  margin: 43rpx 0;
+}
